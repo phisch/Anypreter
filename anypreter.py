@@ -305,16 +305,24 @@ class anypreter(sublime_plugin.TextCommand):
 
 
 
-	def debug(self, value):
-
-		if self.get_view().settings().get("anypreter_debug", False):
-			sublime.status_message(str(value))
+	def is_available(self):
+		
+		# Build the possible settings-path and convert it into a real path (OS specific)
+		settings_file = self.get_syntax() + ".sublime-settings"
+		path = os.path.realpath(sublime.packages_path() + "/Anypreter/interpreters/" + self.get_syntax() + "/" + settings_file)
+		
+		# Return True if there is such a settings-file
+		if os.path.exists(path): return True
+		return False # Else return False
 
 
 
 class anypreterCommand(anypreter):
 
 	def run(self, edit):
+
+		if not self.is_available(): return False
+		
 		# Just start the main-process
 		self.interpret()
 
@@ -325,6 +333,8 @@ class anypreterQuickPanelCommand(anypreter):
 
 	def run(self, edit):
 		
+		if not self.is_available(): return False
+
 		# Get the available mode-names and display them in a quick panel
 		modes = self.get_option("Name", "Unnamed mode", True)
 		self.get_view().window().show_quick_panel(modes, self.done)

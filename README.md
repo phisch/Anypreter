@@ -65,8 +65,7 @@ To use this plugin, be sure to set your binary paths in your user-settings and u
 
 * Ctrl+Shift+X To run the first available Mode for this language
 * Ctrl+Shift+Y (Quick Panel) and select the Mode you want to run
-* Ctrl+Shift+P (Command Palette), type "Anypret" and fire it up
-* Rightclick in the document and select "Interpret Code" (only available if the plugin supports this language)
+* Rightclick in the document and select "Interpret Code" (only works if language is supported)
 
 ## Release Notes
 
@@ -74,5 +73,4 @@ Anypreter is designed to work with the latest [development build](http://www.sub
 
 ## Development
 
-a
 If this plugin doesn't supports your interpreting language, please contact me with some information how to run code in your language via the command-line and i will try my best to update it.
