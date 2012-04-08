@@ -34,7 +34,7 @@ for Portable Installations
 
 and clone this repository
 
-	git clone https://github.com/PhilippSchaffrath/phpInstant
+	git clone https://github.com/PhilippSchaffrath/Anypreter
 
 
 ### Install manually
