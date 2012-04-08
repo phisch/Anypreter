@@ -80,3 +80,6 @@ Anypreter is designed to work with the latest [development build](http://www.sub
 ## Development
 
 If this plugin doesn't supports your interpreting language, please contact me with some information how to run code in your language via the command-line and i will try my best to update it.
+
+Feel free to give me all of your money if you want to provide my work :)
+<a href='http://www.pledgie.com/campaigns/17107'><img alt='Click here to lend your support to: Anypreter (SublimeText 2 Plugin) and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/17107.png?skin_name=chrome' border='0' /></a>
