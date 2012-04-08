@@ -2,6 +2,12 @@
 
 Execute selected Code (or the whole document) from many interpreting laguages directly from your SublimeText2 Editor and see the result
 
+### Supported Interpreters
+
+* PHP
+* Python
+* Ruby
+
 ## Installation
 
 You have three ways to install the Anypreter: using git, installing it manually or using the SublimeText2 "Package Controll" (Available here: http://wbond.net/sublime_packages/package_control)
@@ -53,7 +59,7 @@ The following settings are available and optional, but the default settings shou
 		"anypreter_output_inteval": 1
 	}
 
-php_binary_path: The path to your PHP binary (fallback: "php"-call)
+x_binary_path: The path to your x binary (add your binary paths to your OS-environment-path to avoid problems)
 anypreter_stream_output: "True" to buffer the output and display it in a specified interval livetime
 anypreter_output_inteval: the output interval for anypreter_stream_output in seconds (can be float)
 

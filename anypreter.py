@@ -1,4 +1,4 @@
-import sublime, sublime_plugin, subprocess, os, re, thread, functools, json, time, sys
+import sublime, sublime_plugin, subprocess, os, re, thread, functools, json, time
 
 
 class anypreter(sublime_plugin.TextCommand):
