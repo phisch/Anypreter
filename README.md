@@ -84,4 +84,5 @@ If this plugin doesn't supports your interpreting language, please contact me wi
 ## Donation
 
 <a href='http://www.pledgie.com/campaigns/17107'><img alt='Click here to lend your support to: Anypreter (SublimeText 2 Plugin) and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/17107.png?skin_name=chrome' border='0' /></a>
+
 If my work makes your work more joyable, feel free to donate a few bucks to say: "hey dude, thanks for your work!"
